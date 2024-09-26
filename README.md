@@ -6,7 +6,35 @@ This template is generated from the `lit-starter-js` package in [the main Lit
 repo](https://github.com/lit/lit). Issues and PRs for this template should be
 filed in that repo.
 
-## About this release
+## About this release - From the potential hire
+
+I chose to use this repository in order to learn Lit quickly, as it had the entire ecosystem needed entirely encapsulated from the get-go. I was able to get a working server up and running with minimal issue, and without need to research what options there are.
+
+To see my code simply pull the repo, and `npm run serve` from the terminal within VS Code or similar, and navigate to `localhost:8000/dev/index.html`.
+
+All of the basics are met, and the UI/UX developer as web designer in me is crying loudly at the lack of actual design. 
+
+### My goals were:
+
+- Complete the minimum tasks (at least)
+- Learn the YouTube API well enough I could intelligently discuss it during an interview
+- Learn Lit well enough I would feel comfortable discussing it during an interview, and possibly do a new project from scratch
+- Discuss optimizations I made, and optimizations I can make (more on that below)
+- Highlight my ability to be thrown in any ecosystem and pick it up quickly- having no experience with React, Vue, and minimal with Angular I feel I hit the mark here
+
+### Optimizations I made or want to make:
+
+- My API calls quickly ate through my allowed tokens from YouTube, I quickly learned that the `fields` attribute can be made to somewhat limit what is returned
+- I was able to implement this somewhat with the statistics return for comments, and can implement it further on the main search
+- Passing around objects to and from Web Components is a little iffy for me still at the moment. I'm sure there is a "Lit" way of doing things which I would like to learn
+- For the most part I kept naming consistent, and certainly wanted to throw in a few extra comments to highlight my thinking. I could have done better here.
+- The repo I used seemed a bit bloated overall, but I didn't have the time to do massive cleanup as I didn't have enough time to learn the full ecosystem
+
+### Final thoughts:
+
+After having dealt with Lit I very much appreciate how it handles things. The ability to use TypeScript or not is fantastic (my next goal would be to implement TS with what I've got). I also appreciate that it uses the ShadowDOM, and avoids the bloat that React and other front end libraries have. The simplicity certainly made it almost criminally easy for me to pick up in a matter of hours with no real professional experience in other modern front end libraries.
+
+## From the Original Developer
 
 This is a pre-release of Lit 3.0, the next major version of Lit.
 
