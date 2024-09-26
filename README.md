@@ -29,6 +29,7 @@ All of the basics are met, and the UI/UX developer as web designer in me is cryi
 - Passing around objects to and from Web Components is a little iffy for me still at the moment. I'm sure there is a "Lit" way of doing things which I would like to learn
 - For the most part I kept naming consistent, and certainly wanted to throw in a few extra comments to highlight my thinking. I could have done better here.
 - The repo I used seemed a bit bloated overall, but I didn't have the time to do massive cleanup as I didn't have enough time to learn the full ecosystem
+- API Key, I made the stupid decision to store it in plain text. I didn't set up a secret store. As this repo will be getting blown away in a few short days, and I wanted the users to be able to use it easily I opted for security by obscurity in this case. Also, I can regenerate a new API key in moments at no cost, with no risk to myself.
 
 ### Final thoughts:
 
