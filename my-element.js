@@ -43,7 +43,7 @@ export class MyElement extends LitElement {
 
   constructor() {
     super();
-    this.name = 'World';
+    this.name = 'Jimmy';
     this.count = 0;
   }
 
